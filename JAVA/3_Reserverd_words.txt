@@ -1,0 +1,174 @@
+1.2 Reserved words
+
+In every Language some words are Reserved words to represent some meaning and functionality
+
+Eg: cat dog [animals], eat sleep [action], apple banana [fruit]
+
+In JAVA 53 Reserved words are there which represent some meaning or functionality
+
+Reserved words [53]
+| 
+|->keywords [50]
+|       |
+|       |
+|       |->used keywords - if,else,switch.......
+|       |
+|       |
+|       |->unused keywords - goto, const
+|
+|
+|
+|-Reserved Literals [3]
+                |
+                |->true
+                |->false
+                |->null
+
+keywords [50]
+
+keywords for datatypes : [8]
+
+1. boolean
+2. byte
+3. char
+4. double
+5. float
+6. int
+7. long
+8. short
+
+keywords for flow control : [11]
+
+1. break
+2. case
+3. continue
+4. default
+5. do
+6. else
+7. for
+8. if
+9. return
+10. switch
+11. while
+
+keywords for modifiers : [11]
+
+1. abstract
+2. final
+3. native 
+4. public
+5. private 
+6. protected
+7. synchronized
+8. strictfp (1.2 version)
+9. static 
+10. transient
+11. volatile
+
+keywords for exception handling : [6]
+
+1. assert (1.4 version)
+2. catch
+3. finally 
+4. try
+5. throw 
+6. throws
+
+keywords class related : [6]
+
+1. class
+2. extends
+3. interface 
+4. import 
+5. implements
+6. package
+
+object related keywords : [4]
+
+1. new 
+2. instanceof
+3. super 
+4. this
+
+return type keywords : [1]
+
+1.void
+
+-> delete keyword is not their in JAVA garbage collector is used to free allocated space by program
+-> In JAVA return type is mandatory if method doesnt return anything we have to declare that method
+   void return type but in C language return type is optional under default return type is int 
+
+Unused keywords : [2]
+
+1.goto
+-> usage of goto  create several problems in old languages so some people banned use of goto in JAVA
+
+2.const
+-> to define constants we have final keyword already in JAVA
+
+goto and const are unused keywords and if we trying to use we will get compile time error
+
+
+
+Reserved iterals [3]
+
+1. null
+2. false
+3. true
+
+null - default value for object reference
+
+true, false - value for boolean datatypes
+
+
+last keyword enum (1.5 version)
+
+-> used to defune group of named constants
+
+
+enum Month{
+    JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC;
+}
+
+Conclusions :
+
+1.  All 53 Reserved words in JAVA contains only lowercase alphabet symbols
+2.  In JAVA we have only new keyword and there is no delete keyword in JAVA 
+    because destruction of useless object is responsibilty of garbage collector
+3.  strictfp(1.2v), assert(1.4v), enum(1.5v) the following are new keywords in java 
+
+4.  variations
+
+    strictfp but not strictFp
+    instanceof but not instanceof
+    synchronized but not synchronize
+    extends but not extend 
+    implements but not implement
+    import but not imports
+    const but not constant
+
+5.  Which of the following list contains only java reserved words
+
+a.  new, delete                      [x]  delete is not a keyword 
+b.  goto, constant                   [x]  const but not constants
+c.  break, continue, return, exit    [x]  exit is method not reserved word 
+d.  final, finally, finalize         [x]  finalize is a method 
+e.  throw, throws, thrown            [x]  thrown is not a keyword
+f.  notify, notifyall                [x]  notify and notifyall are methods not keywords 
+g.  implements, extends, imports     [x]  import but not imports 
+h.  sizeof, instanceof               [x]  sizeof is not there in Java
+i.  instanceOf, strictFp             [x]  O and F are capital
+j.  byte, short, Int                 [x]  Int I capital    
+k.  None of the above                [ ]  
+
+6.  Which of the following are java reserved words 
+    
+    public [valid]
+    static [valid]
+    void   [valid]
+    main    [main is just name of method]
+    String  [String is a name of predefined class]
+    args    [args is a name of variable]
+
+
+

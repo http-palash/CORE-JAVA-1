@@ -1,0 +1,34 @@
+3.Datatypes 
+    
+a. Every variable and Every expression in java has some type  
+    
+    Without type there is  no chance of existing single variable or expression
+    
+b. Each and every datatype is clearly strictly defined in JAVA
+
+    eg - byte (8 bits) range -128 - +127
+
+    Each and every assignment should be checked by compiler for type compatibility 
+    eg : int x = 10.5;  [invalid in java valid in c]
+         boolean b = 0; [invalid in java valid in c]
+
+
+c. Because of above reason we can conclude java is strongly typed programming language
+
+
+d. JAVA is pure object oriented or not 
+
+   As compare to old languages like c++ java has more object oriented nature 
+if considering relative comparision java is pure object oriented program language 
+But consider java alone n number of object oriented features are not supported by java
+operator overloading, multiple inheritance is not here in java  
+still depends on primitive datatype
+
+Ans d.  JAVA is not considered as pure object oriented programming language because several oops
+        features are not supported/satisfied by JAVA like operator overloading multiple 
+        inheritance etc moreover we are depending on primitive datatype which are not objects
+
+        int x = 10;
+
+
+

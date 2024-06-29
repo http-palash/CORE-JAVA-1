@@ -1,0 +1,65 @@
+1.1 Identifiers : 
+
+A name in java program is called Identifier which can be used for Identification purpose.
+It can be class name, method name, variable name, label-name.
+
+
+class Test{
+    public static void main(String[] args){
+        int x = 10;
+    }
+}
+
+Identifiers are : {/Test /main /String /args /x }
+
+
+While defining Identifiers in java there are some rules 
+
+1.  The only allowed characters in java Identifiers are (a to z) (A to Z) (0 to 9) ($) ( _ )
+   
+    If we used other characters we will get compile time error 
+    Example : total_number [valid]  total#number [invalid]
+
+2.  Identifiers cant start with digit.
+
+    Example : total123 [valid]  123total [invalid]
+
+3.  Java is case sensitive programming Language also java Identifiers are case sensitive.
+
+    We can differentiate Identifiers with respect to case.
+
+    class{
+        int num = 10;
+        int Num = 20;
+        int NUM = 30;
+    }
+
+4.  There is no length limit for java Identifiers but it is not recommended to use to lonmg Identifiers 
+    because readability of code goes down.
+   
+5.  We cant use Reserved words as Identifiers 
+
+    Example : int x = 10 [valid]      int if = 20 [invalid]
+
+6.  All predefine class names and interfaces names in java can be used as identifiers even though
+    it is valid but it is not a good programming practice because it reduces readability and creates 
+    confusion.
+
+    Example : int String = 888; 
+              int Runnable = 999;
+
+              
+Question : Which are the following are valid identifiers
+
+_number      [valid]
+total_number [valid]
+total#       [invalid]
+123total     [invalid]
+total123     [valid]
+ca$h         [valid]
+_$_$_$_$_    [valid]
+all@hands    [invalid]
+Java2share   [valid]
+Integer      [valid]
+Int          [valid]
+int          [invalid]

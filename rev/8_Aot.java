@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+class Aot{
+    public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    float base,height;
+    System.out.println("Enter first number: ");
+    base = sc.nextFloat();
+    System.out.println("Enter second number: ");
+    height = sc.nextFloat();
+    System.out.println("The Area of triangle "+base+" and height "+height+" is : "+ (base*height)/2); 
+    }
+}
